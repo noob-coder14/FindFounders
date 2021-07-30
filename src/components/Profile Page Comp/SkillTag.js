@@ -7,7 +7,7 @@ export const Container = tw.div`
 `
 
 export const Head = tw.h2`
-text-lg	font-bold mb-3
+text-lg	font-bold mb-2 underline
 `
 export const TagSet = tw.div`
  mb-5
@@ -21,7 +21,7 @@ bg-pink-200 px-2 py-1 rounded-lg hover:cursor-pointer hover:bg-pink-100
 `
 
 export const AboutMe = tw.div`
-text-sm mr-8 mt-2 mb-6
+text-sm mr-8 mt-8 mb-12
 `
 export const Education = styled(AboutMe)`
 ${tw``}`;
