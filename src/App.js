@@ -9,6 +9,10 @@ import BlogIndex from "pages/BlogIndex";
 import Login from "pages/Login";
 import Signup from "pages/Signup";
 import Profile from "pages/Profile";
+import BlogIndexLogged from "pages/BlogIndexLogged";
+import Forum from "pages/Forum";
+import ForumLogged from "pages/ForumLogged";
+import NetworkLogged from "pages/NetworkLogged";
 
 export default function App() {
   // If you want to disable the animation just use the disabled `prop` like below on your page's component
@@ -21,14 +25,26 @@ export default function App() {
         <Route path="/news">
           <BlogIndex/>
         </Route>
+        <Route path="/profile-news">
+          <BlogIndexLogged/>
+        </Route>
         <Route path="/login">
           <Login/>
         </Route>
         <Route path="/signup">
           <Signup/>
         </Route>
+        <Route path="/forum">
+          <Forum/>
+        </Route>
+        <Route path="/profile-forum">
+          <ForumLogged/>
+        </Route>
         <Route path="/profile">
           <Profile/>
+        </Route>
+        <Route path="/profile-network">
+          <NetworkLogged/>
         </Route>
         <SaaSProductLandingPage/>
       </Switch>

@@ -1,8 +1,8 @@
 import AnimationRevealPage from 'helpers/AnimationRevealPage';
-import Header from "components/headers/light";
+import Header from "components/headers/lightLogged";
 import React from 'react';
 
-function Forum() {
+function NetworkLogged() {
     return (
         <AnimationRevealPage>
             <Header/>
@@ -10,4 +10,4 @@ function Forum() {
     )
 }
 
-export default Forum
+export default NetworkLogged
