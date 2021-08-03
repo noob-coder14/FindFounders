@@ -24,7 +24,7 @@ const Plan = styled.div`
     props.featured &&
     css`
       background: rgb(100,21,255);
-      background: linear-gradient(135deg, rgba(100,21,255,1) 0%, rgba(128,64,252,1) 100%);
+      background: linear-gradient(135deg, rgba(131,24,67) 0%, rgba(128,64,252,1) 100%);
 background: rgb(85,60,154);
 background: linear-gradient(135deg, rgba(85,60,154,1) 0%, rgba(128,90,213,1) 100%);
 background: rgb(76,81,191);
@@ -123,7 +123,7 @@ export default ({
     `,
     css`
       background: rgb(56, 178, 172);
-      background-image: linear-gradient(115deg, #6415ff, #7431ff, #8244ff, #8e56ff, #9a66ff);
+      background-image: linear-gradient(115deg, #EC4899, #7431ff, #8244ff, #8e56ff, #9a66ff);
     `,
     css`
       background: rgb(245, 101, 101);
